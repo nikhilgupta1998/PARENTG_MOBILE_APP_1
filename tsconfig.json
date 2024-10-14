@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",     /* Recommended React Native TSConfig base */
+  "compilerOptions": {
+        "paths": {
+      "assets/*": ["./App/assets/*" ],
+      "components/*": ["./App/components/*"],
+      "navigation/*": ["./App/Navigations/*"],
+      "features/*": ["./App/features/*"],
+      "styles/*": ["./App/styles/*"],
+      "utils/*": ["./App/utils/*"],
+      "types/*": ["./App/types/*"],
+      "locales/*": ["./App/locales/*"],
+    },
+    "typeRoots": ["./App/types"],                                   /* Skip type checking all .d.ts files. */
+  }
+}
